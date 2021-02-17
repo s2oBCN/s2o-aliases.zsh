@@ -1,0 +1,11 @@
+alias gp='git pull'
+alias gc="git add . && git commit -m"
+alias gca='git commit --amend --no-edit'
+alias gpp='git push'
+alias glog="git log --oneline --decorate"
+alias gr='git reset --hard'
+alias gs='git status -sb'
+alias gco='git checkout master && pull && git checkout -b'
+alias grm='git checkout master && pull && git checkout - && git rebase master'
+alias grc='git add .; git rebase --continue'
+alias gg='git log --oneline --graph --decorate'
